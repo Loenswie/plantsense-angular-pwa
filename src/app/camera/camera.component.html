@@ -4,8 +4,8 @@
     <webcam
       [trigger]="invokeObservable"
       (imageCapture)="captureImg($event)"
-      [height]="700"
-      [width]="300"
+      [height]="500"
+      [width]="200"
     ></webcam>
   </div>
   <div class="col-md-12">
@@ -15,7 +15,7 @@
   </div>
   <div class="col-12">
     <div id="results">Picture taken here:</div>
-    <img [src]="webcamImage?.imageAsDataUrl" height="400px"/>
+    <img [src]="webcamImage?.imageAsDataUrl" height="200px"/>
 
     <p id="type"></p>
   </div>
