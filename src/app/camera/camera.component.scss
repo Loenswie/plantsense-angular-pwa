@@ -1,0 +1,47 @@
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 1.25rem;
+  }
+
+  webcam {
+    margin-bottom: 2rem;
+    height: 2rem;
+  }
+
+  button {
+    width: 87%;
+    padding: 0.75rem 1.5rem;
+    margin-bottom: 0.5rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    font-family: 'Josefin Slab', serif;
+    color: white;
+    background-color: #4B7235;
+    border: none;
+    border-radius: 0.25rem;
+  }
+
+  #results {
+    text-align: center;
+    margin-bottom: 0.625rem;
+  }
+
+  img {
+    width: 87%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+  }
+}
+
+// Media query for smaller screens
+@media (max-width: 576px) {
+  .container {
+    padding: 0.9375rem;
+  }
+}
